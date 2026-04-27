@@ -5,4 +5,4 @@ const InterestRateSchema = z.object({
     record_date: z.string(),
 });
 
-module.exports = { InterstRatesSchema };
+module.exports = { InterestRateSchema };
