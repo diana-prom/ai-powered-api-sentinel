@@ -1,29 +1,57 @@
 # 🛡️ AI-Powered API Sentinel
 [![API Tests](https://github.com/diana-prom/ai-powered-api-sentinel/actions/workflows/tests.yml/badge.svg)](https://github.com/diana-prom/ai-powered-api-sentinel/actions/workflows/tests.yml)
-![JavaScript](https://shields.io)
-![Jest](https://shields.io)
-![GitHub Actions](https://shields.io)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Jest](https://img.shields.io/badge/Test-Jest-green)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-blue)
 
 ## Proactive API Quality for Financial Infrastructure
 
 ## 🚀 Overview
 
-This repository demonstrates a modern, AI-assisted QA workflow designed for high-velocity environments. I built this suite to test the **US Treasury API**, focusing on data integrity, resiliency against architectural shifts (301/302 redirects), and automated CI/CD deployment.
+AI-Powered API Sentinel is an automated REST API testing framework designed to evaluate financial data integrity and API reliability. The project demonstrates API automation, CI/CD integration, and AI-assisted development practices.
+
+The framework tests the US Treasury API by validating critical financial data, handling API infrastructure changes, and providing automated verification through continuous integration workflows.
 
 ## 🛠️ Tech Stack
 
-* **Editor:** Cursor (AI-native IDE)
-* **Assistance:** Claude 3.5 Sonnet & GitHub Copilot
-* **Testing:** JavaScript, Jest, Supertest
-* **Infrastructure:** GitHub Actions (CI/CD)
+**Programming & Testing**
+- JavaScript
+- Jest
+- Supertest
 
-## 💡 Business Value & Key Technical Wins
+**CI/CD**
+- GitHub Actions
 
-* **Resiliency to Technical Debt:** Identified and resolved a 301/302 redirect loop by refactoring the suite to use v2 canonical endpoints—preventing "flaky" tests as the API infrastructure evolves.
-* **Shift-Left Automation:** Integrated a GitHub Actions pipeline that runs on every push, ensuring that breaking changes never reach production.
-* **AI-Driven Velocity:** Leveraged Cursor and Claude to boilerplate the framework in minutes, allowing me to focus on high-level logic and edge-case validation.
-* **Data Integrity:** Verified critical financial fields (interest rates) to ensure data accuracy—essential for consumer-facing debt management platforms.
+**AI-Assisted Development**
+- Cursor AI IDE
+- Claude 3.5 Sonnet
+- GitHub Copilot
+
+## 💡 Key Technical Achievements
+
+- Built an automated REST API testing framework using JavaScript, Jest, and Supertest.
+- Designed API validation tests covering positive and negative scenarios to verify endpoint behavior and data integrity.
+- Identified and resolved API failures caused by 301/302 redirect changes by migrating tests to canonical v2 endpoints, improving test reliability.
+- Integrated automated test execution into GitHub Actions CI/CD workflows to provide continuous validation on every code change.
+- Implemented structured validation of financial data fields, including interest rate values, to detect unexpected API changes.
+
+## 🧪 Testing Approach
+
+The framework validates:
+
+- API response status codes
+- Response payload structure
+- Financial data accuracy
+- Negative scenarios and invalid requests
+- API behavior during infrastructure changes
+- Automated regression validation through CI/CD workflows
+
+## 🤖 AI-Assisted Development
+
+AI tools were used as development assistants to accelerate implementation, explore solutions, and improve productivity. Generated solutions were reviewed, tested, and adapted to meet project requirements.
 
 ## 🌍 About the Author
 
-I am a Software QA Engineer with extensive experience testing complex, data-heavy systems, including **HR/Payroll platforms** and **E-commerce engines**. I specialize in "shifting quality left" and using data-driven insights to improve product stability. I am currently focused on leveraging AI-native tools to build robust, remote-ready quality frameworks for fast-paced startups.
+Software QA Engineer with experience testing and automating complex, data-driven systems, including HR/payroll platforms, e-commerce applications, and API integrations.
+
+Focused on building reliable software through automation, API validation, CI/CD practices, and continuous improvement.
